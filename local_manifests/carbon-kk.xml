@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+     <remote name="gh" fetch="https://github.com/" />
+
+
+ <!-- SABERMOD NEW Toolchain -->
+  <project name="smtoolchainsarmandroideabi48/code" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="sf" revision="sm-kk-mr1" />
+  <project name="sabermodsmtoolchainsarmeabi48/code" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="sf" revision="sm-kk-mr1" />
+
+
+  <!-- LINARO TOOLCHAIN -->
+<!--  <project name="JustArchi/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gh" revision="4.8-eabi" />
+  <project name="JustArchi/linaro.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="gh" revision="4.8-androideabi" /> -->
+
+  <!-- GOOGLE GCC TOOLCHAIN -->
+  <!-- <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="master" /> -->
+  <!-- <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" revision="master" /> -->
+
+  <!-- SABERMOD GCC TOOLCHAIN -->
+<!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="gh" revision="sm-kk-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="gh" revision="sm-kk-mr1" />  -->
+
+
+
+  <!-- REMOVE UNNEEDED APPS  -->
+  <remove-project name="ChameleonOS/android_packages_apps_ScreenRecorder" />
+  <remove-project name="CarbonDev/android_packages_apps_CarbonWallpapers" />
+  <remove-project name="CarbonDev/android_packages_inputmethods_LatinIME" />
+  <remove-project name="platform/packages/wallpapers/Basic" />
+  <remove-project name="CarbonDev/android_packages_wallpapers_BlueBalls" />
+  <remove-project name="platform/packages/wallpapers/Galaxy4" />
+  <remove-project name="platform/packages/wallpapers/MagicSmoke" />
+  <remove-project name="platform/packages/wallpapers/MusicVisualization" />
+  <remove-project name="platform/packages/wallpapers/NoiseField" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" />
+
+  <!-- STE STUFF  -->
+  <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" remote="gh" revision="3.0.101" />
+  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="gh" revision="cm-11.0" />
+  <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="gh" revision="cm-11.0" />
+  <project path="device/samsung/codina" name="Teamcanjica/android_device_samsung_codina" remote="gh" revision="cm-11.0" />
+  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="gh" revision="cm-11.0" />
+  <project path="packages/apps/DeviceSettings" name="TeamCanjica/android_packages_apps_DeviceSettings" remote="gh" revision="master" />
+
+  <!-- STUFF BY JUDAS  -->
+ <!--<project path="kernel/samsung/u8500" name="batlin1977/Samsung_STE_Kernel" remote="gh" revision="carbon" />
+ <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="JustArchi/Linaro" remote="github" revision="4.9-eabi" />
+ <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/Linaro" remote="github" revision="4.9-eabi" />
+ <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" remote="github" revision="4.8-androideabi" /> -->
+   </manifest>
+
+
+
+
+
+
+
+

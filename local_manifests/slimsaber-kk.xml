@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <manifest>
+
+     <remote name="gh" fetch="https://github.com/" />
+
+
+  <!-- REMOVE UNNEEDED APPS  -->
+  <remove-project name="SlimRoms/packages_apps_Nfc" remote="github" revision="kk4.4" />
+  <remove-project name="platform/packages/apps/VideoEditor" />
+  <remove-project name="SlimSaber/packages_inputmethods_LatinIME" remote="github" revision="kk4.4" />
+  <remove-project name="SlimSaber/packages_inputmethods_OpenWnn" remote="github" revision="kk4.4" />
+  <remove-project name="platform/packages/inputmethods/PinyinIME" />
+  <remove-project name="platform/packages/wallpapers/Basic" />
+  <remove-project name="platform/packages/wallpapers/Galaxy4" />
+  <remove-project name="platform/packages/wallpapers/HoloSpiral" />
+  <remove-project name="platform/packages/wallpapers/MagicSmoke" />
+  <remove-project name="platform/packages/wallpapers/MusicVisualization" />
+  <remove-project name="platform/packages/wallpapers/NoiseField" />
+  <remove-project name="SlimRoms/packages_wallpapers_PhaseBeam" remote="github" revision="kk4.4" />
+
+  <!-- STE STUFF  -->
+  <!-- <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" remote="gh" revision="3.0.101" /> -->
+  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="gh" revision="cm-11.0" />
+  <project path="device/samsung/u8500-common" name="TeamCanjica/android_device_samsung_u8500-common" remote="gh" revision="cm-11.0" />
+  <project path="device/samsung/codina" name="Teamcanjica/android_device_samsung_codina" remote="gh" revision="cm-11.0" />
+  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="gh" revision="cm-11.0" />
+  <project path="packages/apps/DeviceSettings" name="TeamCanjica/android_packages_apps_DeviceSettings" remote="gh" revision="master" />
+
+  <!-- STUFF BY Batlin  -->
+   </manifest>
+
+
+
+
+
+
+
+

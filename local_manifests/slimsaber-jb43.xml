@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+
+  <remote name="gh" fetch="https://github.com/" />
+
+
+  <!-- REMOVE UNNEEDED APPS  -->
+  <remove-project name="SlimRoms/packages_apps_Nfc" />
+  <remove-project name="SlimRoms/packages_inputmethods_LatinIME" />
+  <remove-project name="platform/packages/inputmethods/OpenWnn" />
+  <remove-project name="platform/packages/inputmethods/PinyinIME" />
+  <remove-project name="platform/packages/wallpapers/Basic" />
+  <remove-project name="platform/packages/wallpapers/Galaxy4" />
+  <remove-project name="platform/packages/wallpapers/HoloSpiral" />
+  <remove-project name="platform/packages/wallpapers/MagicSmoke" />
+  <remove-project name="platform/packages/wallpapers/MusicVisualization" />
+  <remove-project name="platform/packages/wallpapers/NoiseField" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="pdk,linux,arm" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
+  <remove-project name="SlimRoms/bootable_recovery" remote="github" revision="jb4.3" />  
+  <remove-project name="SlimRoms/frameworks_av" remote="github" revision="jb4.3" />
+  <remove-project name="SlimRoms/frameworks_native" remote="github" revision="jb4.3" />
+  <remove-project name="SlimRoms/frameworks_base" remote="github" revision="jb4.3" /> 
+  <remove-project name="SlimRoms/android_system_core" remote="github" revision="jb4.3" />
+  <remove-project name="SlimRoms/packages_apps_Phone" remote="github" revision="jb4.3" />
+  <remove-project name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="jb4.3" />
+  <remove-project name="SlimRoms/android_build" remote="github" revision="jb4.3" >
+  <remove-project name="SlimRoms/android_external_bash" remote="github" revision="jb4.3" />
+
+  <!-- TEAMCANJICA'S STUFF  -->
+  <project path="vendor/samsung/u8500-common" name="TeamCanjica/android_vendor_samsung_u8500-common" remote="gh" revision="cm-10.2" />
+  <project path="hardware/u8500" name="TeamCanjica/android_hardware_u8500" remote="gh" revision="cm-10.2" />
+  <project path="packages/apps/DeviceSettings" name="TeamCanjica/android_packages_apps_DeviceSettings" remote="gh" revision="master" />
+
+  <!-- STUFF BY BATLIN  -->
+  <project path="device/samsung/u8500-common" name="batlin1977/android_device_samsung_u8500-common" remote="gh" revision="jb4.3" />
+  <project path="device/samsung/codina" name="batlin1977/android_device_samsung_codina" remote="gh" revision="jb4.3" />
+  <project path="frameworks/av" name="batlin1977/frameworks_av" remote="github" revision="jb4.3" />
+  <project path="frameworks/native" name="batlin1977/frameworks_native" remote="github" revision="jb4.3" />
+  <project path="frameworks/base" name="batlin1977/frameworks_base" remote="github" revision="jb4.3" />
+  <project path="system/core" name="batlin1977/android_system_core" remote="github" revision="jb4.3" />
+  <project path="packages/apps/Phone" name="batlin1977/packages_apps_Phone" remote="github" revision="jb4.3" />
+  <project path="hardware/libhardware_legacy" name="batlin1977/hardware_libhardware_legacy" remote="github" revision="jb4.3" />
+  <project path="external/bash" name="batlin1977/android_external_bash" remote="github" revision="jb4.3" />
+  <project path="build" name="batlin1977/android_build" remote="github" revision="jb4.3" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+
+  <!-- Kernels alternatives -->
+  <project path="kernel/samsung/u8500" name="TeamCanjica/Samsung_STE_Kernel" remote="gh" revision="3.0.101" />
+<!--
+  <project path="kernel/samsung/u8500" name="om-mah-car/Samsung_STE_Kernel" remote="gh" revision="31" />
+  <project path="kernel/samsung/u8500" name="ChronoMonochrome/Chrono_Kernel" remote="gh" revision="rebase-3.1.x" />
+-->
+
+  <!-- SaberMod toolchain -->
+  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="gh" revision="sm-jb-mr2" />
+  <project name="SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="gh" revision="kk4.4"/>
+
+  <!-- TWRP -->
+  <project name="SlimRoms/bootable_recovery" path="bootable/recovery" remote="gh" revision="kk4.4" />
+  </manifest>
+
+
+
+
+
+
+
+
